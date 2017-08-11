@@ -46,6 +46,12 @@ ul.top-navigation__user {
 	float: right;
 }
 
+.content {
+	min-width: 740px;
+	max-width: 976px;
+}
+
+
 .breadcrumbs {
 	margin: 0;
 	padding: 0;
@@ -53,5 +59,30 @@ ul.top-navigation__user {
 }
 
 .breadcrumbs li {
+	display: inline-block;
+}
+
+.action-top__title h2 {
+	width: 800px;
+	float: left;
+}
+
+.counter {
+	float: right;
+	text-align: center;
+}
+
+.content-image {
+	float: left;
+}
+
+.content-details {
+	width: 500px;
+	float: right;
+}
+
+.content-details p {
+	margin: 0;
+	padding-top: 20px;
 	display: inline-block;
 }
