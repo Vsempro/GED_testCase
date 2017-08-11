@@ -1,0 +1,57 @@
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-header li {
+	display: inline-block;
+}
+
+.top-navigation {
+	background-color: #000000;
+}
+
+.top-navigation a {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #B9B9C3;
+}
+
+ul.top-navigation__region {
+	float: left;
+}
+
+ul.top-navigation__user {
+	float: right;
+}
+
+.bottom-navigation {
+	background-color: #3A3A43;
+}
+
+.bottom-navigation__site,
+.bottom-navigation a {
+	float: left;
+}
+
+.bottom-navigation__banner {
+	float: right;
+}
+
+.breadcrumbs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+}
