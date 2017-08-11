@@ -106,3 +106,9 @@ ul.top-navigation__user {
 	width: 33%;
 	float: left;
 }
+
+.site-bar {
+	float: right;
+	width: 250px;
+	background-color: #EBEBED;
+}
