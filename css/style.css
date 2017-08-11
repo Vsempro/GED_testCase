@@ -67,7 +67,7 @@ ul.top-navigation__user {
 	float: left;
 }
 
-.counter {
+.action-top__counter {
 	float: right;
 	text-align: center;
 }
@@ -85,4 +85,24 @@ ul.top-navigation__user {
 	margin: 0;
 	padding-top: 20px;
 	display: inline-block;
+}
+
+.action__image,
+.action__details {
+	float: left;
+}
+
+.action__details {
+	margin-left: 20px;
+	width: 400px;
+}
+
+.action__counter {
+	float: right;
+	width: 80px;
+}
+
+.action-item {
+	width: 33%;
+	float: left;
 }
