@@ -26,59 +26,35 @@
 					</ul>
 				</div>
 			</nav>
-			<nav class="bottom-navigation clearfix" id="js-sticky">
-				<div class="main-wrapper">					
-					<a class="logo-ged" href="#"><object type="image/svg+xml" data="sourceImages/GED-Logo.svg"></object></a>
-					<ul class="bottom-navigation__site">
-						<li><a class="sale" href="#">Прадажа</a></li>
-						<li><a class="rent" href="#">Аренда</a></li>
-						<li><a class="offer" href="#">Спецпредложения</a></li>
-						<li><a class="newbuilding" href="#">Новостройки</a></li>
-						<li><a href="#">Посёлки</a></li>
-						<li><a href="#">Риэлторы</a></li>
-						<li><a href="#">Журнал</a></li>
-					</ul>
-					<a class="logo-absolut" href="#"><object type="image/svg+xml" data="sourceImages/Absolut-Logo.svg"></object></a>
-					<article class="bottom-navigation__banner">
-						<table>
-							<tr>
-								<td>Квартиры в Подмоскоье</td>
+			<nav class="bottom-navigation clearfix">
+				<div class="main-wrapper">
+					<div id="js-sticky">
+						<a class="logo-ged" href="#"><object type="image/svg+xml" data="sourceImages/GED-Logo.svg"></object></a>
+						<ul class="bottom-navigation__site">
+							<li><a class="sale" href="#">Прадажа</a></li>
+							<li><a class="rent" href="#">Аренда</a></li>
+							<li><a class="offer" href="#">Спецпредложения</a></li>
+							<li><a class="newbuilding" href="#">Новостройки</a></li>
+							<li><a href="#">Посёлки</a></li>
+							<li><a href="#">Риэлторы</a></li>
+							<li><a href="#">Журнал</a></li>
+						</ul>
+						<a class="logo-absolut" href="#"><object type="image/svg+xml" data="sourceImages/Absolut-Logo.svg"></object></a>
+						<article class="bottom-navigation__banner">
+							<table>
+								<tr>
+									<td>Квартиры в Подмоскоье</td>
 									<td>от</td>
 									<td>1,8</td>
 									<td>млн. руб.</td>
-							</tr>
-						</table>
-					</article>					
+								</tr>
+							</table>
+						</article>		
+					</div>								
 				</div>
 			</nav>
 		</header>
 			<div class="main-wrapper">
-			<aside class="site-bar">
-				<section class="promotion">
-					<img class="promotion__image" src="sourceImages/image04.jpg" width="215" height="145" alt="акция Квартира дня">
-				<h3 class="promotion__title">ЖК "Прима-парк", скидки до 11%</h3>
-				</section>
-				<section class="promotion">
-					<img class="promotion__image" src="sourceImages/image05.jpg" width="215" height="145" alt="акция Квартира дня">
-				<h3 class="promotion__title">ЖК "Царицыно"</h3>
-				</section>
-				<section class="promotion">
-					<img class="promotion__image" src="sourceImages/image04.jpg" width="215" height="145" alt="акция Квартира дня">
-				<h3 class="promotion__title">ЖК "Прима-парк", скидки до 11%</h3>
-				</section>
-				<section class="promotion">
-					<img class="promotion__image" src="sourceImages/image05.jpg" width="215" height="145" alt="акция Квартира дня">
-				<h3 class="promotion__title">ЖК "Царицыно"</h3>
-				</section>
-				<section class="promotion">
-					<img class="promotion__image" src="sourceImages/image04.jpg" width="215" height="145" alt="акция Квартира дня">
-				<h3 class="promotion__title">ЖК "Прима-парк", скидки до 11%</h3>
-				</section>
-				<section class="promotion">
-					<img class="promotion__image" src="sourceImages/image05.jpg" width="215" height="145" alt="акция Квартира дня">
-				<h3 class="promotion__title">ЖК "Царицыно"</h3>
-				</section>
-			</aside>
 				<main class="content">
 				    <h1 class="visually-hidden">Акции и спецпредложения</h1>
 				    <ul class="breadcrumbs">
@@ -141,6 +117,46 @@
 						</article>
 					</section>
 				</main>
+				<aside class="site-bar">
+					<section class="promotion">
+						<img class="promotion__image" src="sourceImages/image04.jpg" width="215" height="145" alt="акция Квартира дня">
+					<h3 class="promotion__title">ЖК "Прима-парк", скидки до 11%</h3>
+					</section>
+					<section class="promotion">
+						<img class="promotion__image" src="sourceImages/image05.jpg" width="215" height="145" alt="акция Квартира дня">
+					<h3 class="promotion__title">ЖК "Царицыно"</h3>
+					</section>
+					<section class="promotion">
+						<img class="promotion__image" src="sourceImages/image04.jpg" width="215" height="145" alt="акция Квартира дня">
+					<h3 class="promotion__title">ЖК "Прима-парк", скидки до 11%</h3>
+					</section>
+					<section class="promotion">
+						<img class="promotion__image" src="sourceImages/image05.jpg" width="215" height="145" alt="акция Квартира дня">
+					<h3 class="promotion__title">ЖК "Царицыно"</h3>
+					</section>
+					<section class="promotion">
+						<img class="promotion__image" src="sourceImages/image04.jpg" width="215" height="145" alt="акция Квартира дня">
+					<h3 class="promotion__title">ЖК "Прима-парк", скидки до 11%</h3>
+					</section>
+					<section class="promotion">
+						<img class="promotion__image" src="sourceImages/image05.jpg" width="215" height="145" alt="акция Квартира дня">
+					<h3 class="promotion__title">ЖК "Царицыно"</h3>
+					</section>
+				</aside>
 			</div>
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		    <script>
+			    $(function($) {
+		        $(window).scroll(function(){
+		            if($(this).scrollTop()>18){
+		                $('#js-sticky').addClass('fixed');
+		            }
+		            else if ($(this).scrollTop()<18){
+		                $('#js-sticky').removeClass('fixed');
+		            }
+		        });
+		    });
+		    </script>
 	</body>
 </html>

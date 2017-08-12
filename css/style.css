@@ -44,6 +44,13 @@ ul.top-navigation__user {
 	background-color: #3A3A43;
 }
 
+
+.fixed {
+	position: fixed;
+	top: 0px;
+	background-color: #3A3A43;
+}
+
 .bottom-navigation__site,
 .bottom-navigation a {
 	float: left;
