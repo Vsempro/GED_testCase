@@ -1,5 +1,4 @@
 
-
 .main-wrapper {
 	margin: 0 auto;
 	min-width: 990px;
@@ -50,8 +49,13 @@ ul.top-navigation__user {
 	float: left;
 }
 
-a.logo-absolut:hover {
-	fill: 0xFBBC5E;
+.logo-absolut {
+	fill: #ffffff;
+}
+
+
+.logo-absolut:hover {
+	fill: #5ebcfb;
 }
 
 .bottom-navigation__banner {
