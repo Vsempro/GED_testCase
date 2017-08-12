@@ -146,9 +146,24 @@ a.offer::before {
 	float: left;
 }
 
+img.action-item {
+
+}
+
 .site-bar {
 	float: right;
 	margin-left: -250px;
 	width: 250px;
 	background-color: #EBEBED;
+}
+
+@media only screen
+and (min-width: 100px)
+and (max-width: 800px) {
+
+	.action-item {
+		width: 100%;
+		clear: left;
+	}
+
 }
