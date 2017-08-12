@@ -58,6 +58,29 @@ ul.top-navigation__user {
 	fill: #5ebcfb;
 }
 
+.bottom-navigation__site a {
+	padding: 5px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+a.offer {
+	position: relative;
+	padding-left: 20px;
+	color: #ff7d41;
+	text-decoration: none;	
+}
+
+a.offer::before {
+	content: "";
+	position: absolute;
+	width: 17px;
+	height: 25px;
+	left: 0px;
+	border: 0px;
+	background: url("../sourceImages/header-icons.png") 0px -110px no-repeat;
+}
+
 .bottom-navigation__banner {
 	float: right;
 }
