@@ -1,4 +1,8 @@
 
+body {
+	font-family: Helvetica, sans-serif;
+}
+
 .main-wrapper {
 	margin: 0 auto;
 	min-width: 990px;
@@ -19,6 +23,7 @@
 
 .main-header li {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .top-navigation {
@@ -42,6 +47,12 @@ ul.top-navigation__user {
 
 .bottom-navigation {
 	background-color: #3A3A43;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.logo-ged {
+	margin-top: 10px;
 }
 
 
@@ -53,32 +64,77 @@ ul.top-navigation__user {
 
 .bottom-navigation__site,
 .bottom-navigation a {
+	margin-top: 10px;
 	float: left;
+}
+
+.bottom-navigation__site li {
+	position: relative;
+	margin-left: 10px;
+}
+
+.bottom-navigation__site li:hover::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	bottom: -17px;
+	left: 0;
+	background-color: #ffffff;
+}
+
+a.logo-link {
+	margin-top: 16px;
+	margin-left: 15px;
 }
 
 .logo-absolut {
 	fill: #ffffff;
 }
 
-
 .logo-absolut:hover {
 	fill: #5ebcfb;
 }
 
 .bottom-navigation__site a {
-	padding: 5px;
+	padding-top: 5px;
 	font-weight: bold;
 	color: #ffffff;
+	text-decoration: none;
 }
 
-a.offer {
+.sale a,
+.rent a {
+	text-decoration: none;
+	border-bottom: 1px dotted #ffffff;
+}
+
+li.sale:hover::before,
+li.rent:hover::before {
+	bottom: -16px;
+}
+
+li.offer:hover::before {
+	background-color: #ff7d41;
+}
+
+li.newbuilding:hover::before {
+	background-color: #ffcc00;
+}
+
+.newbuilding a {
+	text-decoration: none;
+	color: #ffcc00;
+}
+
+.offer a {
 	position: relative;
 	padding-left: 20px;
 	color: #ff7d41;
 	text-decoration: none;	
 }
 
-a.offer::before {
+.offer a::before {
 	content: "";
 	position: absolute;
 	width: 17px;
@@ -90,6 +146,28 @@ a.offer::before {
 
 .bottom-navigation__banner {
 	float: right;
+}
+
+.bottom-navigation__banner table {
+	margin: 5px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #333896;
+}
+
+.name {
+	width: 120px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.value {
+	font-size: 26px;
+	background-color: #fc6700;
+}
+
+.dimension {
+	width: 30px;
 }
 
 .content {
@@ -106,6 +184,7 @@ a.offer::before {
 
 .breadcrumbs li {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .action-top__title h2 {
@@ -148,8 +227,8 @@ a.offer::before {
 	width: 80px;
 }
 
-.action-item {
-	width: 33%;
+.action-item:nth-chidl(2) {
+	width: 34%;
 	float: left;
 }
 
