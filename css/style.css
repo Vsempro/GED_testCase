@@ -9,6 +9,15 @@ body {
 	max-width: 1226px;
 }
 
+.visually-hidden {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
 .clearfix::after {
 	content: "";
 	display: table;
@@ -86,9 +95,9 @@ li.logon::before {
 }
 
 .bottom-navigation {
-	background-color: #3A3A43;
 	font-size: 14px;
 	font-weight: bold;
+	background-color: #3A3A43;
 }
 
 .logo-ged {
@@ -217,6 +226,16 @@ li.newbuilding:hover::before {
 	padding-right: 250px;
 }
 
+.action {
+	margin: 20px 30px 50px 20px;
+	padding: 15px 50px 5px 20px;
+	border: 1px solid #B9B9C3;
+}
+
+.action-top {
+	padding-bottom: 25px;
+	border-bottom: 1px solid #B9B9C3;
+}
 
 .breadcrumbs {
 	margin: 0;
@@ -225,8 +244,29 @@ li.newbuilding:hover::before {
 }
 
 .breadcrumbs li {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.breadcrumbs a {
+	padding-right: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0072be;
+	text-decoration: none;
+}
+
+.link-newbuilding::before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-top: 2px solid #0072be;
+	border-right: 2px solid #0072be;
+	right: 9px;
+	top: 7px;
+	transform: rotate(45deg);
 }
 
 .action-top__title h2 {
@@ -254,23 +294,37 @@ li.newbuilding:hover::before {
 	display: inline-block;
 }
 
-.action__image,
-.action__details {
+.action-next {
+	padding-top: 25px;
+}
+
+.action-next h2,
+.action-another h2 {
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #3A3A43;
+}
+
+.action-next__image,
+.action-next__details {
 	float: left;
 }
 
-.action__details {
+.action-next__details {
 	margin-left: 20px;
 	width: 50%;
 }
 
-.action__counter {
+.action-next__counter {
 	float: right;
-	width: 80px;
+	width: 60px;
+	font-size: 12px;
 }
 
-.action-item:nth-chidl(2) {
-	width: 34%;
+.action-item {
+	width: 33%;
 	float: left;
 }
 
