@@ -109,6 +109,7 @@ li.logon::before {
     position: fixed;
     top: 0px;
     background-color: #3A3A43;
+    z-index: 2;
 }
 
 .bottom-navigation__site,
@@ -341,6 +342,21 @@ p.action-top__deadline {
 
 .action-next {
     padding-top: 25px;
+    position: relative;
+}
+
+.action-next::before {
+	content: "До 15 января";
+	position: absolute;
+	padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ff5f47;
+    top: 70px;
+    left: 235px;
 }
 
 .action-next h2,
@@ -358,13 +374,44 @@ p.action-top__deadline {
 
 .action-next__details {
     margin-left: 20px;
-    width: 50%;
+    width: 40%;
+}
+
+.action-next__details h3 {
+	font-size: 14px;
+}
+
+.action-next__details p {
+	font-size: 12px;
 }
 
 .action-next__counter {
     float: right;
-    width: 60px;
+    width: 9%;
     font-size: 12px;
+}
+
+.action-next__counter p {
+	margin: 0;
+	font-weight: bold;
+}
+
+.action-next__counter span {
+	display: inline-block;
+	padding: 3px 5px;
+	margin-top: 5px;
+	margin-left: 1px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #424242;
+}
+
+span.number1 {
+	border-radius: 4px 0 0 4px;
+}
+
+span.number2 {
+	border-radius: 0 4px 4px 0;
 }
 
 .action-item {
