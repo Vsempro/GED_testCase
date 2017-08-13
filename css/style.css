@@ -270,13 +270,42 @@ li.newbuilding:hover::before {
 }
 
 .action-top__title h2 {
-    width: 60%;
+	margin-bottom: 10px;
+    width: 70%;
     float: left;
+    font-size: 22px;
+    font-weight: normal;
 }
 
 .action-top__counter {
     float: right;
     text-align: center;
+}
+
+p.action-top__counter-day {
+	margin: 5px;
+	font-weight: bold;
+}
+
+p.action-top__counter-time {
+	margin: 5px;
+	padding: 5px 15px;
+	border-radius: 3px;
+	color: #ffcc07;
+	background-color: #424242;
+}
+
+p.action-top__deadline {
+	margin-top: 0;
+	margin-bottom: 30px;
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 3px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #ff5f47;
 }
 
 .content-image {
@@ -289,9 +318,25 @@ li.newbuilding:hover::before {
 }
 
 .content-details p {
-    margin: 0;
-    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
     display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	padding: 9px 20px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #62c741;
 }
 
 .action-next {
