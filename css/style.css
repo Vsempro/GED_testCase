@@ -423,17 +423,13 @@ span.number2 {
     float: left;
     width: 30%;
     height: 365px;
-    margin-right: 4%;
+    margin-right: 3%;
     border: 1px solid #B9B9C3;
 }
 
 .action-item:hover {
     -webkit-box-shadow: -2px 3px 10px #B9B9C3;
             box-shadow: -2px 3px 10px #B9B9C3;
-}
-
-.action-item:nth-child(3n) {
-    margin-right: 0;
 }
 
 .action-item h3 {
@@ -499,8 +495,7 @@ img.action-item {
 
 @media only screen and (min-width: 100px) and (max-width: 800px) {
 
-    .action-item,
-    .action-item:nth-child(3n) {
+    .action-item {
         margin: 0 auto;
         margin-bottom: 25px;
         width: 293px;
