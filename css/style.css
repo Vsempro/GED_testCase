@@ -417,6 +417,7 @@ span.number2 {
 }
 
 .action-item {
+	margin-bottom: 25px;
     float: left;
     width: 30%;
     height: 365px;
@@ -479,6 +480,11 @@ img.action-item {
 	padding-top: 25px;
 }
 
+.promotion--bottom {
+	height: 132px;
+	overflow: hidden;
+}
+
 .promotion h3 {
 	margin-top: 10px;
 	width: 200px;
@@ -493,6 +499,7 @@ img.action-item {
     .action-item,
     .action-item:nth-child(3n) {
         margin: 0 auto;
+        margin-bottom: 25px;
         width: 293px;
         float: none;
     }
