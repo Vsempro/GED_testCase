@@ -30,11 +30,20 @@ body {
 	background-color: #000000;
 }
 
+.top-navigation li {
+	margin-right: 15px;
+}
+
 .top-navigation a {
+	padding: 3px;
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: bold;
 	color: #B9B9C3;
+}
+
+a.region-current {
+	color: #ffffff;
 }
 
 ul.top-navigation__region {
@@ -43,6 +52,37 @@ ul.top-navigation__region {
 
 ul.top-navigation__user {
 	float: right;
+}
+
+.top-navigation__user li {
+	position: relative;
+}
+
+.top-navigation__user li::before {
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	bottom: 0px;
+	left: -5px;
+	background-image: url("../sourceImages/header-icons.png");
+	background-repeat:  no-repeat;
+}
+
+li.ad::before {
+	background-position: -50px 1px;
+}
+
+li.registration::before {
+	background-position: 0px -67px;
+}
+
+li.logon::before {
+	background-position: -32px -50px;
+}
+
+.top-navigation__user a {
+	padding-left: 15px;
 }
 
 .bottom-navigation {
@@ -140,7 +180,7 @@ li.newbuilding:hover::before {
 	width: 17px;
 	height: 25px;
 	left: 0px;
-	border: 0px;
+	bottom: 0px;
 	background: url("../sourceImages/header-icons.png") 0px -110px no-repeat;
 }
 
@@ -156,6 +196,7 @@ li.newbuilding:hover::before {
 }
 
 .name {
+	padding: 0 10px;
 	width: 120px;
 	text-align: left;
 	text-transform: uppercase;
@@ -167,6 +208,7 @@ li.newbuilding:hover::before {
 }
 
 .dimension {
+	padding-right: 10px;
 	width: 30px;
 }
 
