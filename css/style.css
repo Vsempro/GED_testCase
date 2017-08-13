@@ -377,11 +377,13 @@ p.action-top__deadline {
     width: 40%;
 }
 
-.action-next__details h3 {
+.action-next__details h3,
+.promotion h3 {
 	font-size: 14px;
 }
 
-.action-next__details p {
+.action-next__details p,
+.promotion p {
 	font-size: 12px;
 }
 
@@ -456,11 +458,34 @@ img.action-item {
     height: auto;
 }
 
-.site-bar {
+.sitebar {
     float: right;
     margin-left: -250px;
     width: 250px;
-    background-color: #EBEBED;
+    background-color: #ebebed;
+}
+
+.sitebar-container {
+	margin: 0 auto;
+	width: 200px;
+}
+
+.promotion {
+	padding-top: 10px;
+	border-bottom: 1px solid #B9B9C3;
+}
+
+.promotion--top {
+	padding-top: 25px;
+}
+
+.promotion h3 {
+	margin-top: 10px;
+	width: 200px;
+}
+
+.promotion p {
+	width: 200px;
 }
 
 @media only screen and (min-width: 100px) and (max-width: 800px) {
