@@ -108,6 +108,7 @@ li.logon::before {
 .fixed {
     position: fixed;
     top: 0px;
+    width: 1226px;
     background-color: #3A3A43;
     z-index: 2;
 }
